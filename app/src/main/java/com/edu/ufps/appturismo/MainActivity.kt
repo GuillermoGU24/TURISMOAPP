@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     // CARGA LENTA LUEGO SE CARGA
     //lateinit var txtusuario : TextInputEditText
     private lateinit var auth: FirebaseAuth;
-    val TAG : String = "MainActivity"
+    val TAG : String = "MainActivity "
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
