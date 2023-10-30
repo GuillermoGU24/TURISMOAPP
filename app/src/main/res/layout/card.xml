@@ -16,6 +16,7 @@
 
         <!-- Media -->
         <ImageView
+            android:id="@+id/foto"
             android:layout_width="match_parent"
             android:layout_height="194dp"
             app:srcCompat="@drawable/radiador"
@@ -31,12 +32,14 @@
 
             <!-- Title, secondary and supporting text -->
             <TextView
+                android:id="@+id/nombre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Radiador Springs"
                 android:textAppearance="?attr/textAppearanceTitleMedium"
                 />
             <TextView
+                android:id="@+id/descripcion"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
